@@ -2,15 +2,16 @@ body {
 	
 	font-size: 1em;
 	
-	background-image:linear-gradient(#001425 ,#021526 100% ); 
+	/*background-image:linear-gradient(#001425 ,#021526 100% ); */
+    background-color: rgb(20, 20, 20);
 
 	background-size: 100%;
-	color: hsl(60, 55%, 72%);
+	color: hsl(60, 48%, 91%);
 
 }
 #main{
     font-family:Arial, Verdana, Helvetica, sans-serif;
-    background-color: #03346E;
+    background-color: rgb(20, 20, 20);
     
     width: 90%;
     margin:auto;
@@ -34,8 +35,8 @@ h1{
     animation: fadeIn 1s forwards;
     animation-delay: var(--delay, 0s);
     transform: translateY(30px); /* Start 30px lower */
-
-    background-image:linear-gradient(45deg, rgb(21, 21, 124) 35%, #3c6c90 100%); 
+    background-color: rgb(20, 20, 20);
+    /*background-image:linear-gradient(45deg, rgb(21, 21, 124) 35%, #3c6c90 100%); */
 }
 .projectitem img{
 
