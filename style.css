@@ -2,17 +2,18 @@ body {
 	
 	font-size: 1em;
 	
-	background-color: rgb(11, 11, 12);
+	background-color: #121212;
 	background-size: 100%;
 	color: antiquewhite;
 }
 #main{
     font-family:Arial, Verdana, Helvetica, sans-serif;
-    background-color: rgb(45, 48, 65);
+    background-color: #641111;
     
     width: 90%;
     margin:auto;
     padding: 20px;
+    border-radius: 1%;
 }
 
 h1{
@@ -29,8 +30,10 @@ h1{
     animation-delay: var(--delay, 0s);
     transform: translateY(30px); /* Start 30px lower */
     padding: 20px;
-    background-color: rgb(117, 90, 90);
-    border: 1px solid #6d4c4c;
+    border-radius: 2%;
+    background-color: #202020;
+    border: 1px white solid;
+
 }
 .projectitem:nth-child(1) {
     animation-delay: calc(0 * 1s); /* No delay for the first element */
