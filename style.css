@@ -33,6 +33,12 @@ h1{
 .projectitem img{
     width: 90%;
 }
+a {
+	color: antiquewhite;
+}
+a:visited{
+	color:rgb(255, 170, 59);
+}
 @media (max-width: 600px) { /*MÜTYÜR TELEFONKÉPERNYŐKRE*/
     .projectsdiv {
         grid-template-columns: 1fr; /* 1 column on small screens */
