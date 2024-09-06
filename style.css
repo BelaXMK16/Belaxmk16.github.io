@@ -2,13 +2,13 @@ body {
 	
 	font-size: 1em;
 	
-	background-color: #121212;
+	background-color: #021526;
 	background-size: 100%;
-	color: antiquewhite;
+	color: hsl(60, 55%, 72%);
 }
 #main{
     font-family:Arial, Verdana, Helvetica, sans-serif;
-    background-color: #641111;
+    background-color: #03346E;
     
     width: 90%;
     margin:auto;
@@ -31,8 +31,8 @@ h1{
     transform: translateY(30px); /* Start 30px lower */
     padding: 20px;
     border-radius: 2%;
-    background-color: #202020;
-    border: 1px white solid;
+    background-color: #3c6c90;
+    border: 1px hsl(60, 33%, 71%) solid;
 
 }
 .projectitem:nth-child(1) {
