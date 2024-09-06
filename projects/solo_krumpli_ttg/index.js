@@ -757,9 +757,10 @@ function updateInfoDisplay(){
             break;
         case 3:
             currentSeasonDisplay.innerHTML="Jelenlegi évszak: Tél (DA)"
-            break;
+            break;  
         default:
             finalpoints = SEASON_POINTS[0]+SEASON_POINTS[1]+SEASON_POINTS[2]+SEASON_POINTS[3]
+            window.alert("Vége A Játéknak! Végpontszámod:" + finalpoints)
             currentSeasonDisplay.innerHTML= "Vége A Játéknak! Végpontszámod:" + finalpoints
             break;
     }
