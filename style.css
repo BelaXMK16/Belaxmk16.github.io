@@ -2,9 +2,11 @@ body {
 	
 	font-size: 1em;
 	
-	background-color: #021526;
+	background-image:linear-gradient(#001425 ,#021526 100% ); 
+
 	background-size: 100%;
 	color: hsl(60, 55%, 72%);
+
 }
 #main{
     font-family:Arial, Verdana, Helvetica, sans-serif;
@@ -13,7 +15,6 @@ body {
     width: 90%;
     margin:auto;
     padding: 20px;
-    border-radius: 1%;
 }
 
 h1{
@@ -23,17 +24,25 @@ h1{
     text-align: center;
     display: grid;
     gap: 10px; /* Space between divs */
+    border: none;
 }
+
 .projectitem {
+    border: 3px hsl(60, 33%, 71%) solid;
+    margin:10px;
     opacity: 0;
     animation: fadeIn 1s forwards;
     animation-delay: var(--delay, 0s);
     transform: translateY(30px); /* Start 30px lower */
-    padding: 20px;
-    border-radius: 2%;
-    background-color: #3c6c90;
-    border: 1px hsl(60, 33%, 71%) solid;
 
+    background-image:linear-gradient(45deg, rgb(21, 21, 124) 35%, #3c6c90 100%); 
+}
+.projectitem img{
+
+    border-bottom: 3px hsl(60, 33%, 71%) solid;
+    padding: 0px;
+    margin: 0px;
+    
 }
 .projectitem:nth-child(1) {
     animation-delay: calc(0 * 1s); /* No delay for the first element */
@@ -42,7 +51,9 @@ h1{
     font-size: 1.5em;
 }
 .projectitem img{
-    width: 90%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 a {
 	color: antiquewhite;
