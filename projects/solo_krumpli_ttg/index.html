@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hun">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A térképész</title>
+</head>
+<link rel="stylesheet" href="index.css">
+<body>
+
+
+<div class="containerGameTable">    
+    <h1>Burgonya Térkép</h1>
+    <table style="min-width: 530px;" id="myTable">    
+    <tbody id="GAME_TABLE">
+    </tbody>
+    </table>
+
+</div>
+<div class="containerInformaions">
+
+    <table class="pointsPerSeason">
+        <tr>
+            <td class="spring">
+                <div id="springPoints">Tavasz: <br>0 pont</div>
+            </td>
+            <td class="summer">
+                <div id="summerPoints">Nyár: <br>0 pont</div>
+            </td>
+            <td class="fall">
+                <div id="fallPoints">Ősz: <br> 0 pont</div>
+            </td>
+            <td class="winter">
+                <div id="winterPoints">Tél: <br>0 pont</div>
+            </td>
+        </tr>
+    </table>
+    <h2 id="currentSeasonDisplay">Jelenlegi évszak:  Tavasz (AB)</h2>
+    <hr>
+
+    <table class="quests">
+        <tr>
+            <td class="questCell">A</td>
+            <td class="questCell">B</td>
+        </tr>
+        <tr>
+            <td class="questCell">C</td>
+            <td class="questCell">D</td>
+        </tr>
+    </table>
+    <ul>
+        <li id="questAPoints">A: 0</li>
+        <li id="questBPoints">B: 0</li>
+        <li id="questCPoints">C: 0</li>
+        <li id="questDPoints">D: 0</li>
+    </ul>
+
+    <h2 id="timeRemainingInSeason">Évszakból Hátramaradó Idő: 0/7</h2>
+    <hr>
+
+    <div class="placeElement">
+        <h2>Lehelyezendő Elem:</h2>
+            <button id="rotateElementButton">Forgatás</button>
+            <br>
+            <button id="mirrorElementButton">Tükrözés</button>
+        </div>
+    <div class="placeElement">
+        <table style="min-width: 160px;">
+            <thead id="CURRENT_ELEMENT_TIME"></thead>
+            <tbody id="CURRENT_ELEMENT_TABLE">
+        </tbody>
+        </table>
+
+        </div>
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>

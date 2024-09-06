@@ -1,0 +1,48 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+ @font-face {
+	font-family: "Mastodon";
+	src: url(../fonts/Mastodon2.ttf);
+ }
+
+ 
+body {
+	font-family:Arial, Verdana, Helvetica, sans-serif; 
+	font-size: 1em;
+	background-image: linear-gradient(to bottom, rgba(126, 126, 126, 0.578), rgba(14, 14, 14, 0.87), rgb(0, 0, 0)), url(../imgs/background.jpg); 
+	background-repeat:repeat-y;
+	background-size: 100vw; 
+	color: antiquewhite;
+
+}
+
+h1,h2 {
+	
+    font-family: 'Mastodon';
+}
+h1{
+	text-align: center;
+	font-size: 6em;
+}
+h2{
+	letter-spacing: 1px;
+	background-color: rgb(100, 0, 0);
+
+	max-width: 75%; 
+}
+p {
+ text-align:left;
+ }
+ 
+#tartalom{
+	background-image: linear-gradient(to bottom, rgb(93, 93, 93), rgba(0, 0, 0));
+}
+body{padding-bottom: 25vh; padding-left: 25vw;padding-right: 25vw;}
+h1,p{background-color: black; padding: 5px;}
+a {
+	color: antiquewhite;
+}
+a:visited{
+	color:rgb(255, 170, 59);
+}
+
+

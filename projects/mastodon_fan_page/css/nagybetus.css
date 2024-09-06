@@ -1,0 +1,33 @@
+@import url('alapstilus.css'); /*importaljuk, ez az alap aminek az ertekeit felulirjuk*/
+body {
+	font-size:2em;		/*nagy, betuk*/
+	
+}
+h1{
+	margin-top: 300px; /*ne logjon bele a cimbe a "normal valtozat"*/
+}
+a#nagybetu {display: none;}		
+a#normalbetu {display: block;}	/*a nagybetu helyett a normalbetu jelenik meg*/
+
+header, main, footer, #header, #tartalom, #footer {
+	width:90%;			/*a tartalom szelesseget megnoveljuk */
+	max-width:90vw;	/*a max szelesseg a kepernyo 90%-anal ne legyen nagyobb*/
+	min-width:  1000px;	/*a minimum szelesseget is felvesszuk*/
+}
+	
+#gyengenlato { width: 600px;}
+
+#gyengenlato span {  
+	background-image:url("../imgs/bigeye.png"); /*kisszem helyett nagy szemet allitunk be*/
+	width: 300px;		
+	height:120px;		
+}
+
+#diszkografia   { /*hasabok szama 2->1 */
+	column-count: 1;			
+	-webkit-column-count: 1;
+    -moz-column-count: 1;
+}
+ol{padding-left: 55px;} /*ne logjon ki a szamozott lista a tablazatbol*/
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<title>Mastodon (Banda) - Főoldal</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/alapstilus.css" title="normal">
+	<link rel="stylesheet" type="text/css" href="css/nagybetus.css" title="nagybetus" disabled>
+	<script src="scripts/styleswitcher.js"></script>
+</head>
+<body>
+<nav class="kipozicional">
+	<a href="#tartalom">Ugrás a tartalomra</a>
+</nav>
+
+<header>
+	<h1>Mastodon</h1>
+	<h1>Főoldal</h1>
+	<nav id="gyengenlato"><a id="nagybetu" href="#" onclick="setActiveStyleSheet('nagybetus'); return false;"><span class="ikon"></span>Nagybetűs változat</a>
+		<a id="normalbetu" href="#" onclick="setActiveStyleSheet('normal'); return false;"><span class="ikon"></span>Normál változat</a>
+		</nav>
+		
+	<nav id="oldalmenu">
+	   <ul>
+		<li class="currentsite"><a href="index.html">Főoldal</a></li>
+		 <li><a href="tortenet.html">Története</a></li>
+		 <li><a href="diszkog.html">Diszkográfia</a></li>
+		 <li><a href="bandatagok.html">Bandatagok</a></li>
+		 <li><a href="index.html#hirlevel">Hírlevél</a></li>
+	   </ul>
+	</nav>
+</header>
+<main id="tartalom">
+<article  id="tortenet">
+<h2>A Banda Története</h2>
+<p>Az amerikai Mastodon egy heavy metal zenekar, amely 2000-ben alakult az Atlanta-i, Georgia-i székhelyen. Az együttes tagjai Brann Dailor dobos, Bill Kelliher gitáros, Brent Hinds gitáros és Troy Sanders basszusgitáros énekes. Az elmúlt évtizedekben a Mastodon sokat járta az utat, és számos sikeres albumot adott ki, mint például a Leviathan, a Crack the Skye és a Emperor of Sand. </p>
+<figure><div class="indeximg"><img src="imgs/oldmastodon.png" alt="Egy régi csoportkép a Mastodonról, ahogy egy masztodon kiállított csontváza előtt állnak" ></div></figure>
+</article>
+
+<article id="diszkografia">
+<h2>Diszkográfia</h2>
+<p>Az amerikai Mastodon egy heavy metal zenekar, amely az elmúlt évtizedekben kiemelkedő albumokat adott ki. Az együttes debütáló albuma, a <i>Remission</i> 2002-ben jelent meg, és azonnal elnyerte a kritikusok elismerését. A<i> Leviathan </i>(2004) azonban tette igazán népszerűvé az együttest, és megalapozta sikeres karrierjüket. Az együttes harmadik albuma, a<i>Blood Mountain</i> (2006) tovább növelte a rajongói bázist és számos elismerést kapott a kritikusoktól. A <i> Crack the Skye </i> (2009) az együttes egyik legkiemelkedőbb albuma, és a progresszív rock és metal elemek ötvözésével vált az együttes kritikai sikereinek alapjává. Az együttes ötödik albuma, a<i> The Hunter </i> (2011) tovább folytatta az együttes kreatív fejlődését, és a sludge és progresszív metal műfajok ötvözése révén az együttes legnépszerűbb albuma lett. Az <i> Once More 'Round the Sun </i> (2014) szintén nagy sikert aratott, és az együttes kreatív fejlődését folytatta. Az együttes hatodik albuma, az <i>Emperor of Sand </i> (2017) az emberi szenvedés és halál témáját járja körül, és a kritikusoktól ismét nagy elismerést kapott. Az együttes legújabb albuma a <i> Hushed and Grim </i> (2021), amely egy koncepcióalbum, és az együttes legkomplexebb és legérzelmesebb munkája. Az album a sludge, a progresszív és az alternatív metal elemeket ötvözi, és az együttes rajongói és a kritikusok szerint is az együttes egyik legjobb albuma.</p>
+</article>
+<figure><div class="indeximg"><img src="imgs/diszkog.jpg" alt="A Banda különböző albumborítóiból összekollázsolt kép." ></div></figure>
+
+<article id="tagok">
+ <h2>A Bandatagok</h2>
+<p>A amerikai Mastodon tagjai Troy Sanders (ének, basszusgitár), Brent Hinds (ének, gitár), Brann Dailor (dob), és Bill Kelliher (gitár).
+	 Az együttes tagjai 1999-ben találkoztak Atlanta-ban, és 2000-ben hivatalosan is megalakult az együttes. 
+	Az együttes tagjai nagyon elkötelezettek a zenéjük iránt, és az évek során számos kreatív és innovatív munkát hoztak létre, amelyek által nagy hatást gyakoroltak a heavy metal zenére.</p>
+<figure><div class="indeximg"><img src="imgs/mastodonpromo2021.jpg" alt="Kép a Bandatagokról. Balról jobbra: Troy Sanders, Brent Hinds, Brann Dailor, és Bill Kelliher "></div></figure>
+</article>
+
+<article id="hirlevel">
+<h2>Iratkozz fel a hírlevelünkre!</h2>
+<form action="mailto:bbogdandy@gmail.com" method="post" enctype="text/plain">
+	<fieldset>
+		<legend>Az adataid</legend>
+		<label for="nev"><strong>Név</strong></label><br>
+		<input type="text" name="nev" id="nev" size="60" maxlength="60"><br>
+		<label for="email"><strong>E-mail cím</strong></label><br>
+		<input type="email" name="email" id="email" size="60" maxlength="60"><br>
+		<p> Milyen témákról szeretnél hírt kapni?</p>
+		<p><input type="checkbox" name="mastodonhir" id="mastodonhir" value="igen"><label for="mastodonhir">A Mastodonnal kapcsolatban</label></p>
+		<p><input type="checkbox" name="koncerthir" id="koncerthir" value="igen"><label for="koncerthir">Koncertekről a közeledben</label></p>
+		<p><input type="checkbox" name="webujdonsag" id="webujdonsag" value="igen"><label for="webujdonsag">A weboldal újdonságairól</label></p>
+		<p>Írd meg hogy mivel fejleszthetnénk a weboldalt!</p>
+		<p><textarea cols="60" rows="10" name="weboldfejl" id="weboldfejl" placeholder="Röviden fogalmazd meg a véleményed!" maxlength="1024"></textarea></p>
+
+		<p>Mielőtt végeznél, egy értékeléseddel sokat segíthetnél nekünk!<br>
+			<input type="radio" name="ertekeles" id="v1" value="1">
+			<label for="v1">1</label>
+			<input type="radio" name="ertekeles" id="v2" value="2">
+			<label for="v2">2</label>
+			<input type="radio" name="ertekeles" id="v3" value="3">
+			<label for="v3">3</label>
+			<input type="radio" name="ertekeles" id="v4" value="4">
+			<label for="v4">4</label>
+			<input type="radio" name="ertekeles" id="v5" value="5">
+			<label for="v5">5</label>
+	</fieldset>
+	<fieldset>
+		<legend>Adatok elküldése</legend>
+		<input type="submit" value="Elküld">
+		<input type="reset" value="Töröl">
+	</fieldset>
+</form>
+
+</article>
+<nav><a href="#oldalmenu">Ugrás a menühöz</a></nav>
+
+</main>
+<footer>
+<p><a href="https://en.wikipedia.org/wiki/Mastodon_(band)" target="_blank">Forrás: Wikipedia </a></p>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+    {
+    "0": {
+        "username": "admin",
+        "password": "$2y$10$1gixLfviCEA0Lg2yBYuysuORYK51eqdsRblt2sKphQybnWqtawliC",
+        "email": "admin@admin.com",
+        "roles": [
+            "admin"
+        ],
+        "money": 2000,
+        "id": "0"
+    },
+    "65a3d1f538183": {
+        "username": "mokasflotas",
+        "password": "$2y$10$pjIKTTbBjPgFr5mfJo2FS.hfD9fYvqfJMhyJodxoM3hhrcp43SkY.",
+        "email": "mokasflotas@citromail.com",
+        "roles": [
+            "user"
+        ],
+        "money": 605,
+        "id": "65a3d1f538183"
+    },
+    "65a54f41104fd": {
+        "username": "PokemonFan55",
+        "password": "$2y$10$GVQQl2\/u1r09dnT4V4yNtO4bLdSimzMoCGDRbyrKY9TUAT85EWNfq",
+        "email": "pokemonfan44@hotmail.com",
+        "roles": [
+            "user"
+        ],
+        "money": 1933,
+        "id": "65a54f41104fd"
+    },
+    "65a55cd23a5ae": {
+        "username": "jiujitsukaisen",
+        "password": "$2y$10$mnb0Jiz5ZM1G3r3TSZ3\/xOnUsqbH3nZ3owqEfEnxxQY5DRrS4pUa2",
+        "email": "asdasd@c.com",
+        "roles": [
+            "user"
+        ],
+        "money": 383,
+        "id": "65a55cd23a5ae"
+    },
+    "66d0e7cc963fe": {
+        "username": "ASD",
+        "password": "$2y$10$swZfswQwSe0SzEGwVT98remdGvus4MqvxKGdgyZLh84hXknEIy8bG",
+        "email": "W@C.C",
+        "roles": [
+            "user"
+        ],
+        "money": 2000,
+        "id": "66d0e7cc963fe"
+    },
+    "66d0e7d9bf9f9": {
+        "username": "asd",
+        "password": "$2y$10$QTrePMPJg4SkPuJU7GdTXeo.zWhO\/Q4MywbMyefov4uHYB.KOEDhW",
+        "email": "x@c.x",
+        "roles": [
+            "user"
+        ],
+        "money": 958,
+        "id": "66d0e7d9bf9f9"
+    },
+    "66daac27973cb": {
+        "username": "asdasdasd",
+        "password": "$2y$10$kFaInjPjSMP.DWt4L0YmkecnrtgJk0h08J.DIVQedkM2Q1d1ydRZu",
+        "email": "asd@asd.asd",
+        "roles": [
+            "user"
+        ],
+        "money": 980,
+        "id": "66daac27973cb"
+    }
+}
