@@ -1,4 +1,4 @@
-    {
+{
     "0": {
         "username": "admin",
         "password": "$2y$10$1gixLfviCEA0Lg2yBYuysuORYK51eqdsRblt2sKphQybnWqtawliC",
@@ -26,7 +26,7 @@
         "roles": [
             "user"
         ],
-        "money": 1933,
+        "money": 3013,
         "id": "65a54f41104fd"
     },
     "65a55cd23a5ae": {
